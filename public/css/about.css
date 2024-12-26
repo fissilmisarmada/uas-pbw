@@ -1,0 +1,130 @@
+/* Gaya Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('/images/fotomobilbiru.jpg');
+}
+
+/* Header */
+header {
+    background-color: #004a89;
+    padding: 1rem 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00aced;
+}
+
+/* Section */
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    color: #004a89;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Card */
+div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+div > div {
+    text-align: center;
+    border: 2px solid #007BFF;
+    border-radius: 12px; /* Membuat sudut lebih halus */
+    padding: 20px;
+    max-width: 320px; /* Menyesuaikan lebar maksimal */
+    background-color: #fff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Efek bayangan lebih halus */
+    transition: transform 0.3s, box-shadow 0.3s; /* Efek transisi saat hover */
+}
+
+div > div:hover {
+    transform: translateY(-5px); /* Efek mengangkat box saat hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Meningkatkan bayangan saat hover */
+}
+
+div > div img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Membuat gambar bulat */
+    border: 4px solid #007BFF; /* Border lebih tebal dan sesuai dengan warna */
+    object-fit: cover; /* Mengatur agar gambar tidak terdistorsi */
+    margin-bottom: 20px; /* Memberi jarak antara gambar dan teks */
+}
+
+div > div h2 {
+    margin-top: 10px;
+    font-size: 22px; /* Menambah ukuran font untuk judul */
+    color: #004a89;
+    font-weight: bold; /* Menebalkan font judul */
+}
+
+div > div p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #004a89;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}

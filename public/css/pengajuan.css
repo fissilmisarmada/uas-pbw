@@ -1,0 +1,128 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur tampilan body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Latar belakang biru muda */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Wrapper utama halaman */
+#rental-request {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #007bff; /* Warna biru terang */
+}
+
+/* Form styling */
+form {
+    display: grid;
+    gap: 20px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #007bff; /* Border biru saat fokus */
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Button styling */
+button {
+    padding: 14px 20px;
+    background-color: #007bff; /* Biru terang */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Biru lebih gelap saat hover */
+}
+
+/* Pesan status */
+.status-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status-message.success {
+    color: #28a745; /* Hijau sukses */
+}
+
+.status-message.error {
+    color: #dc3545; /* Merah error */
+}
+
+
+/* Navigasi */
+header nav {
+    background-color: #007bff; /* Biru terang untuk latar belakang */
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex; /* Menampilkan item secara horizontal */
+    justify-content: center; /* Menyusun item di tengah */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
